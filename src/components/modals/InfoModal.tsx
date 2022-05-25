@@ -58,7 +58,24 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Mess a disposizun dall'Uniun da Giuventetgna Sagogn.
+              Mess a disposizun dall'Uniun da giuventetgna Sagogn.
+      </p>
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        Plaidin ei la versiun romontscha dil giug {' '}
+        <a
+          href="https://www.nytimes.com/games/wordle/index.html"
+          className="underline font-bold"
+        >
+          Wordle
+        </a>
+        . Il code anfleis Vus sin {' '}
+        <a
+          href="https://github.com/amaissen/react-wordle-romontsch"
+          className="underline font-bold"
+        >
+          Github
+        </a>
+        .
       </p>
     </BaseModal>
   )
