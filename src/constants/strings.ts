@@ -21,6 +21,7 @@ export const STATISTICS_TITLE = 'Statistica'
 export const GUESS_DISTRIBUTION_TEXT = 'Distribuziun d\'emprovas'
 export const NEW_WORD_TEXT = 'Niev plaid en'
 export const SHARE_TEXT = 'Parter'
+export const CUSTOM_SHARE_MESSAGE = `Contas emprovas drovas ti?\nGioga il ${GAME_TITLE} sin plaidin.ugsagogn.ch!`
 export const TOTAL_TRIES_TEXT = 'Emprovas'
 export const SUCCESS_RATE_TEXT = 'Quota da success'
 export const CURRENT_STREAK_TEXT = 'Seria da success'

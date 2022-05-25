@@ -1,6 +1,6 @@
 import { getGuessStatuses } from './statuses'
 import { solutionIndex, unicodeSplit } from './words'
-import { GAME_TITLE } from '../constants/strings'
+import { GAME_TITLE, CUSTOM_SHARE_MESSAGE } from '../constants/strings'
 import { MAX_CHALLENGES } from '../constants/settings'
 import { UAParser } from 'ua-parser-js'
 
@@ -26,7 +26,7 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )
+    ) + `\n\n${CUSTOM_SHARE_MESSAGE}`
 
   const shareData = { text: textToShare }
 
