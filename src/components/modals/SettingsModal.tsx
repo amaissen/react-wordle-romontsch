@@ -41,7 +41,7 @@ export const SettingsModal = ({
           handleFlag={handleDarkMode}
         />
         <SettingsToggle
-          settingName="Pli bia contrast"
+          settingName="Pli bia cuntrast"
           flag={isHighContrastMode}
           handleFlag={handleHighContrastMode}
           description={HIGH_CONTRAST_MODE_DESCRIPTION}
